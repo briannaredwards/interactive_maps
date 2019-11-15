@@ -1,0 +1,51 @@
+#mapid {
+  height: 600px;
+  width: 800px;
+  margin-top: 1rem;
+  border: 1px solid #000;
+  }
+
+  html {
+      font-size: 100%;
+      box-sizing: border-box;
+  }
+
+  * {
+      box-sizing: inherit;
+  }
+
+  h1 {
+      font-family: Georgia, serif;
+      text-align: center;
+      font-size: 300%;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body {
+      font-family: Helvetica, sans-serif;
+      margin: auto;
+      padding: 20px;
+      background: #002868;
+      color: #fff;
+      max-width: 800px;
+  }
+
+  a {
+      color: #d7effc;
+  }
+
+  @media screen and (max-width: 800px) {
+    body {
+      margin: 20px;
+      padding: 10px;
+    }
+    #mapid {
+      height: 500px;
+      margin: 0;
+      padding: 0;
+    } }
